@@ -1,0 +1,88 @@
+Group 53:
+	Andrew Marshall: alm266
+	Brandon Diaz-Abreu: brd48
+
+Assignment #0 Testcases
+-----------------------
+
+Test #0
+-------
+Input:		./pointersorter ''
+Expected Output:
+"No words were given"
+
+Test #1
+-------
+Input:		./pointersorter '/<>&*>'
+Expected Output:
+"No words were given"
+
+Test #2
+-------
+Input:		./pointersorter 'hello'
+Expected Output:
+"hello"
+
+Test #3
+-------
+Input:		./pointersorter 'hello world!'
+Expected Output:
+"hello
+world"
+
+Test #4
+-------
+Input:		./pointersorter
+Expected Output:
+"You didn' provide enough arguments! I need at least one."
+
+Test #5
+-------
+Input:		./pointersorter 'pool0party' 'was-yesterday'
+Expected Output:
+"I can't handle 2 arguments!
+ Can you try just one instead?"
+
+Test #6
+-------
+Input:		./pointersorter 'one' two 'three' four 5 'six'
+Expected Output:
+"I can't handle 6 arguments!
+ Can you try just one instead?"
+
+Test #7
+-------
+Input:		./pointersorter 'x' (where x is a string with more than 2000 characters)
+Expected Output:
+"That looks like way too many characters!
+ Give me less than 2000 please."
+
+Test #8
+-------
+Input:		./pointersorter 'The*QUICK0broWn)(foX...<JUMPED+over,the laZY?"dog'
+Expected Output:
+"brown
+dog
+fox
+jumped
+lazy
+over
+quick
+the
+the"
+
+Test #9
+-------
+Input:		./pointersorter 'the these therold them they their thorough thoreau thesbian thorouz'
+Expected Output:
+"the
+their
+them
+therold
+thesbian
+these
+they
+thoreau
+thorough
+thorouz"
+
